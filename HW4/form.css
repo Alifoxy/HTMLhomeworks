@@ -3,12 +3,12 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: darkcyan;
+    background-color: cadetblue;
     margin: 0;
 }
 form{
-    width: 40vw;
-    height: 50vh;
+    width: 30vw;
+    height: 40vh;
     background-color: white;
     border-radius: 10px;
 }
@@ -19,34 +19,35 @@ form{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(96, 145, 145);
+    background-color: rgb(38, 99, 108);
     border-radius: 10px 10px 0 0 ;
     font-size: 30px;
 }
 .sectionForInput{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
 }
 
 input[type=text], input[type=password]{
-    width: 70%;
-    padding: 1.5% 1%;
-    margin-top: 25px;
+    width: 300px;
+    padding: 1%;
+    margin-top: 20px;
 }
 .sectionForInput div{
-    width: 70%;
+    width: 100%;
     margin-top: 20px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 input[type=submit]{
     width: 80px;
     height: 25px;
     border: 1px solid gray;
     border-radius: 8px;
-    background-color: rgb(158, 201, 201);
+    background-color: rgb(19, 129, 190);
 }
 .yes{
   appearance: none;
@@ -61,6 +62,6 @@ input[type=submit]{
     background-size: cover;
 }
 a{
-    color: coral;
+    color: #3419e0;
     text-decoration: none;
 }
