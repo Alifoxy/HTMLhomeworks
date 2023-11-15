@@ -1,0 +1,34 @@
+.main{
+    display: flex;
+    width:100%;
+    height:100px;
+}
+.yellow{
+    background-color: gold;
+}
+.white{
+    background-color: whitesmoke;
+}
+.blue{
+    background-color: #005683;
+}
+.black{
+    background-color: #464646;
+}
+.menu_block{
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.menu{
+    width: 500px;
+    font-family: "Calibri", serif;
+    font-size: 15px;
+    color: #716B6B;
+    display: inline-flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.logo{
+    width: 100%;
+}
